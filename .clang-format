@@ -10,10 +10,10 @@ AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 
 # 连续赋值时，对齐所有等号
-AlignConsecutiveAssignments: true
+AlignConsecutiveAssignments: false
 
 # 连续声明时，对齐所有声明的变量名
-AlignConsecutiveDeclarations: true
+AlignConsecutiveDeclarations: false
 
 # 对齐连续位域字段的风格
 # AlignConsecutiveBitFields: AcrossEmptyLinesAndComments
@@ -121,7 +121,7 @@ BreakBeforeBinaryOperators: None
 #   注：这里认为语句块也属于函数
 
 # 大括号的换行规则
-BreakBeforeBraces: Custom
+BreakBeforeBraces: Allman
 
 # 三元运算操作符换行位置（?和: 在新行还是尾部）
 BreakBeforeTernaryOperators: true
@@ -133,7 +133,7 @@ BreakConstructorInitializersBeforeComma: false
 BreakConstructorInitializers: BeforeComma
 
 # 每行字符的限制，0表示没有限制
-ColumnLimit: 120
+ColumnLimit: 0
 
 # 描述具有特殊意义的注释的正则表达式，它不应该被分割为多行或以其它方式改变
 # CommentPragmas: ''
